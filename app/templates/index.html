@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    function show(a){
+        document.getElementById("c1").style.display="none";
+        document.getElementById("c2").style.display="none";
+        document.getElementById("c3").style.display="none";
+        document.getElementById(a).style.display="block";
+    }
+</script>
+
+</head>
+<body>
+    <table border="1" width="400" align="center">
+        <tr>
+            <td><a href="javascript:show('c1')"><img src="T shirt.jpg" width="300">T shirt</a></td>
+            <td><a href="javascript:show('c2')"><img src="trousers.jpg" width="300">trousers</a></td>
+            <td><a href="javascript:show('c3')"><img src="skirt.jpg" width="300">skirt</a></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <div id="c1" style="display:None">
+        <h1 align="center">Name: T shirt
+             <br>
+             <br>
+            Size: M
+            <br>
+            <br>
+            Price:$20
+        </h1>
+    </div>
+
+    <div id="c2" style="display:None">
+        <h1 align="center">Name: trousers
+            <br>
+            <br>
+           Size: M
+           <br>
+           <br>
+           Price:$30</h1>
+    </div>
+
+    <div id="c3" style="display:None">
+        <h1 align="center">Name: skirt
+            <br>
+            <br>
+           Size: M
+           <br>
+           <br>
+           Price:$50</h1>
+    </div>
+</body>
+</html>
